@@ -29,7 +29,7 @@ public class ClientCallback extends IMyAidlCallback.Stub {
 
   @Override
   public IBinder asBinder() {
-    return null;
+    return super.asBinder();
   }
 
 }
